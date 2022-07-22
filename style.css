@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-product {
+  background-color: hsl(0, 0%, 100%);
+  width: 340px;
+  height: 610px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 35px;
+}
+
+.img {
+  background: url(images/image-product01.jpg);
+}
+
+.part-img {
+  height: 39%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 25px;
+}
+.bloc-txt {
+  width: 92%;
+  /*margin-left: 20px;*/
+  margin: auto;
+}
+
+h2 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+h3 {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.detail-product {
+  font-family: "montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 45px;
+}
+.price-product {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: hsl(158, 36%, 37%);
+  display: flex;
+  align-items: center;
+}
+.price-product_bar {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.addCard-product {
+  width: 100%;
+  border-radius: 10px;
+  height: 48px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addCard-product:hover {
+  cursor: pointer;
+  background-color: hsl(158, 36%, 20%);
+}
+.caddy {
+  margin-right: 10px;
+}

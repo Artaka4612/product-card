@@ -1,0 +1,32 @@
+@media screen and (min-width: 1440px) {
+  .card-product {
+    display: flex;
+    width: 600px;
+    height: 430px;
+  }
+  .part-img {
+    width: 325px;
+    height: 100%;
+    margin: 0;
+    border-radius: 15px 0px 0px 15px;
+  }
+  .img {
+    background: url(images/image-product-desktop-resize.jpg);
+  }
+  .bloc-txt {
+    width: 45%;
+    height: 380px;
+    margin: 25px 25px;
+  }
+  .card-product:hover .detail-product {
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 46px;
+  }
+  .card-product:hover .price-product_bar {
+    margin-top: 2px;
+  }
+  .card-product:hover .add {
+    margin-top: 2px;
+  }
+}
