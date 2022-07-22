@@ -2,6 +2,8 @@
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
+https://artaka4612.github.io/product-card/
+
 ### Screenshot
 
 ![qr-card](./images/mobile-design.jpg)
